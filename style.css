@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* <!-- ínicio do cabeçalho --> */
+header{
+    background-color:#0B3954;
+    height: 70px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white
+}
+
+.links-cabecalho a {
+    margin: 0px 7px;
+    font-size: 22px;
+    color:white;
+    text-decoration:none;
+}
+
+.links-cabecalho a:hover {
+    border-bottom: 1px solid white;
+}
+/* <!-- fim do cabeçalho --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- banner início --> */
+#main-banner {
+    width: 100%;
+}
+
+.menu-principal {
+    background-image: url(img/notebook.jpg);
+    background-size: cover;
+}
+
+.banner-titulo {
+    display: flex;
+    justify-content: center;
+    color:white;
+    
+}
+
+.banner-titulo span {
+    color: white;
+    background-color: #0B3954;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0px 6px;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-info img {
+    height: 300px;
+    border-radius: 150px;
+    padding-top: 20px;
+    
+    /* margin-left:530px; */
+}
+
+.banner-ingles {
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+/* <!-- banner fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- sobre mim inicio --> */
+#sobre-mim {
+    color: white;
+    background-color: #0B3954;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+#sobre-mim h2 {
+    padding: 20px 0px;
+}
+
+#sobre-mim p {
+    width: 80%;
+    text-align: justify;
+}
+/* <!-- sobre mim fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- habilidades inicio --> */
+.container {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin : -55px auto 50px;
+    border-radius: 50px;
+}
+
+.containers {
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.central {
+    border-left: 1px solid #0B3954;
+    border-right: 1px solid #0B3954;
+}
+
+.imag {
+    width: 80px;    
+}
+/* <!-- habilidades fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- jobs inicio --> */
+.job-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#jobs h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: #0B3954;
+    color: white;
+}
+
+#jobs p {
+    text-align: center;
+    padding: 20px;
+}
+
+.job-box h3 {
+    padding: 20px 0px;
+}
+
+.job-box h4 {
+    padding:10px 0px;
+}
+
+.proj1, .proj2 {
+    width:50%;
+}
+
+.fotos-projetos {
+    width: 300px;
+    height: 300px;
+}
+/* <!-- jobs fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- hard skills ínicio --> */
+.skills-section {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 500px;
+    width: 70%;
+    margin: 50px auto;
+}
+
+#skills {
+    width: 70%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 0px;
+}
+
+.skills-titulo h2 {
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+.imagens img {
+    width: 50px;
+}
+
+.div1 {
+    width: 100%;
+    border-right: 1px solid black;
+    margin-left: 500px;
+}
+
+.div1-imagens, .div2-imagens {
+    padding: 50px 0px;
+}
+
+.div1, .div2 {
+    padding: 0px;
+    margin: 0px;       
+}
+
+.div1, .div2 {
+    width: 50%;
+}
+
+.div3, .div4 {
+    display: flex;
+    justify-content:center;
+}
+
+.imagens img {
+    margin: 15px 5px;
+}
+
+.divA, .divB {
+    display: flex;
+    justify-content: center;
+}
+
+.div-titulo {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+/* <!-- hard skills fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- formulário ínicio --> */
+#contato {
+    height: 650px;
+    background-color: #0B3954;
+    text-align: center;
+    color: white;
+}
+
+#contato h2 {
+    padding: 50px;
+    font-size: 35px;
+}
+
+#contato img {
+    width: 110px;
+    padding: 25px;
+    margin-left: 35px;
+}
+
+#contato p {
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+#contato form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#contato form input {
+    display: block;
+    margin: 15px;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box; 
+}
+
+#contato form textarea {
+    display: block;
+    margin: 15px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.msg-final {
+    padding: 20px;
+}
+/* <!-- formulário fim --> */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* <!-- footer inicio --> */
+.redes-sociais {
+    display: block;
+    width: 100%;
+    height: 140px;
+    background-color: #052233;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.redes-sociais li a i {
+    color: white;
+}
+
+.redes-sociais h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+/* <!-- footer fim --> */
+
+
